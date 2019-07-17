@@ -21,7 +21,7 @@ client.on('ready',()=>{
 					var nowT = new Date(dArr[0]['timestamp']);
 					var hours = Math.ceil(Math.abs(fT - nowT) / 36e5);
 
-					client.user.setActivity((dArr[0]['fundingRate']*100).toString()+'% funding')
+					client.user.setActivity((dArr[0]['fundingRate']*100).toString()+'% Funding')
 				});
     		});
     		request.on('error', function (e) {
