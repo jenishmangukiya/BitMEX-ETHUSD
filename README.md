@@ -1,1 +1,2 @@
 # BitMEX-ETHUSD
+BitMEX-ETHUSD Bot
